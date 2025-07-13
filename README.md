@@ -1,4 +1,4 @@
-**_# Sales Performance Dashboard
+# Sales Performance Dashboard
 Transforming Raw Sales Data into Actionable Business Intelligence 🚀
 
 Welcome to my **Sales Performance Dashboard** project! This Power BI masterpiece turns complex sales data into clear, actionable insights for retail businesses. Designed for executives, sales teams, and customer insights analysts, this dashboard delivers real-time metrics to optimize strategies, boost revenue, and reduce product returns. Let's dive into the details! 💻📊
