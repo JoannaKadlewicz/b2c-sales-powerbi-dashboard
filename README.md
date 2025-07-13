@@ -11,13 +11,13 @@ Before this solution, the lack of centralized insights made it tough to spot und
 
 ### Key Insights Delivered
 - **\$24.9M** in revenue with **\$10.5M**  in profit across **25.2K orders**
-  - **Top 10** products by revenue and return rates
-  - **2.2% return rate** with flagged high-risk items (like 'shorts')
+- **Top 10** products by revenue and return rates
+- **2.2% return rate** with flagged high-risk items (like 'shorts')
 
 ### Stakeholders
 - **Executives & Leadership**: High-level performance overview
-  - **Sales & Product Managers**: Detailed product and sales analytics
-  - **Customer Insights Teams**: Deep dive into customer behavior
+- **Sales & Product Managers**: Detailed product and sales analytics
+- **Customer Insights Teams**: Deep dive into customer behavior
 
 ### Outcome
 This dashboard is a **single source of truth**, slashing time spent on manual reporting, uncovering key trends, and driving a **15% sales increase** while improving customer satisfaction.
@@ -27,9 +27,9 @@ This dashboard is a **single source of truth**, slashing time spent on manual re
 ## 🛠️ Tools & Technology Stack
 The dashboard leverages a robust tech stack for seamless data processing and visualization:
 - **Microsoft Power BI**: Interactive dashboards with dynamic filtering, time-based trends, and category breakdowns
-  - **Power Query**: Data import and cleaning from flat files (CSV, Excel)
-  - **Data Modeling**: Star schema with fact and dimension tables for efficient filtering
-  - **DAX (Data Analysis Expressions)**: Custom measures and KPIs for advanced analytics
+- **Power Query**: Data import and cleaning from flat files (CSV, Excel)
+- **Data Modeling**: Star schema with fact and dimension tables for efficient filtering
+- **DAX (Data Analysis Expressions)**: Custom measures and KPIs for advanced analytics
 
 ---
 
@@ -38,20 +38,20 @@ Structured data is sourced from flat files (CSV/XLSX) and processed via Power Qu
 
 ### Source Files
 - Sales transactions
-  - Product details
-  - Customer demographics
-  - Returns and order history
+- Product details
+- Customer demographics
+- Returns and order history
 
 ### Dimensional Tables
 - Calendar
-  - Customer
-  - Product
-  - Category
-  - Territory
+- Customer
+- Product
+- Category
+- Territory
 
 ### Fact Tables
 - Sales
-  - Returns
+- Returns
 
 ---
 
@@ -69,20 +69,20 @@ ____
 ## 🔄 ETL / Data Pipeline Process
 The ETL process is streamlined for reliability and repeatability:
 1. **Data Extraction**: Import CSV files into Power BI from a structured folder system
-   2. **Data Cleaning**: Use Power Query to remove duplicates, filter invalid records, and standardize formats
-   3. **Data Transformation**: Apply business logic with Power Query and DAX for derived metrics and relationships
-   4. **Data Validation**: Ensure consistency with record counts, value checks, and referential integrity
+2. **Data Cleaning**: Use Power Query to remove duplicates, filter invalid records, and standardize formats
+3. **Data Transformation**: Apply business logic with Power Query and DAX for derived metrics and relationships
+4. **Data Validation**: Ensure consistency with record counts, value checks, and referential integrity
 
 ---
 
 ## 📈 Key DAX Measures
 Advanced DAX formulas provide dynamic insights:
 - **10-day Rolling Revenue**: Tracks revenue over a 10-day window
-  - **Adjusted Revenue**: Calculates revenue based on order quantity and adjusted price
-  - **Order Target Gap**: Measures progress toward a 10% order growth target
-  - **YTD Revenue**: Year-to-date revenue tracking
-  - **Previous Month Revenue**: Month-over-month revenue comparison
-  - and many others, check it out... :)
+- **Adjusted Revenue**: Calculates revenue based on order quantity and adjusted price
+- **Order Target Gap**: Measures progress toward a 10% order growth target
+- **YTD Revenue**: Year-to-date revenue tracking
+- **Previous Month Revenue**: Month-over-month revenue comparison
+- and many others, check it out... :)
 
 ---
 
@@ -113,4 +113,4 @@ Check out the code, explore the dashboards, and let me know what you think! 😎
 
 ---
 
-*Built with 💪 by Joanna Kadlewicz for my GitHub Data Analyst Portfolio*_**
+Built with 💪 by **Joanna Kadlewicz** for my GitHub Data Analyst Portfolio
